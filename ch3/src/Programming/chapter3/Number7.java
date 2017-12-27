@@ -10,21 +10,21 @@ public class Number7 {
 		
 		/*switch(month) {
 		case 1 : case 2 : case 3 : case 4 : case 5 : case 6: 
-			System.out.println("��ݱ� �Դϴ�.");
+			System.out.println("상반기 입니다.");
 			break;
 		case 7 : case 8 : case 9 : case 10 : case 11 : case 12 :
-			System.out.println("�Ϲݱ� �Դϴ�.");
+			System.out.println("하반기 입니다.");
 		}*/
 		
 		/*
 		 * if (month > 0 && month <= 6) {
-		 * System.out.println("��ݱ��Դϴ�.");
+		 * System.out.println("상반기입니다.");
 		 * }
 		 * else if (month >= 7 && month <= 12){
-		 *  System.out.println("�Ϲݱ��Դϴ�.");
+		 *  System.out.println("하반기입니다.");
 		 * }
 		 */
-		String result = month > 6 ? "�Ϲݱ��Դϴ�." : "��ݱ��Դϴ�.";
+		String result = month > 6 ? "하반기입니다." : "상반기입니다.";
 		System.out.println(result);
 	input.close();	
 	}

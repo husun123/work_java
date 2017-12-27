@@ -12,7 +12,7 @@ public class Number8 {
 		
 		int result = a > b ? (a > c ? a : c) : (b > c ? b : c);
 		
-		System.out.println("°¡Àå Å« ¼ö : " + result);
+		System.out.println("ê°€ì¥ í° ìˆ˜ : " + result);
 		
 		input.close();
 	}

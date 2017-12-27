@@ -9,8 +9,8 @@ public class asf {
 		double max = x > y ? x : y;
 		double min = x < y ? x : y;
 		
-		System.out.printf("ÃÖ´ë : %f\n", max);
-		System.out.printf("ÃÖ¼Ò : %f\n", min);
+		System.out.printf("ìµœëŒ€ : %f\n", max);
+		System.out.printf("ìµœì†Œ : %f\n", min);
 				
 		
 		

@@ -5,14 +5,14 @@ public class DevideByZero {
 	public static void main(String[] args) {
 		short data1 = 32766;
 		short data2 = 1;
-		//short data3 = data1 + data2;	// ´õÇÑ °á°ú°¡ intÇüÀ¸·Î º¯È¯
-		short data3 = (short)(data1 + data2);	//¸í½ÃÀû Çüº¯È¯ int -> short
+		//short data3 = data1 + data2;	// ë”í•œ ê²°ê³¼ê°€ intí˜•ìœ¼ë¡œ ë³€í™˜
+		short data3 = (short)(data1 + data2);	//ëª…ì‹œì  í˜•ë³€í™˜ int -> short
 		short data4 = 32766 + 1;
 		System.out.println(data3+ " " + data4);
 		
-		System.out.println(0.0 / 0.0);		//nan = Not a Number (¼ıÀÚ°¡ ¾Æ´Ï´Ù)
-		System.out.println(3 / 0.0);			// Infinity = ¹«ÇÑ´ë(3ÀÌ doubleÇüÀ¸·Î º¯È¯)
-		System.out.println(3 / 0);				// Á¤¼ö¸¦ 0À¸·Î ³ª´­ ¼ö ¾ø±â ¶§¹®¿¡ ¿¹¿Ü¹ß»ı
+		System.out.println(0.0 / 0.0);		//nan = Not a Number (ìˆ«ìê°€ ì•„ë‹ˆë‹¤)
+		System.out.println(3 / 0.0);			// Infinity = ë¬´í•œëŒ€(3ì´ doubleí˜•ìœ¼ë¡œ ë³€í™˜)
+		System.out.println(3 / 0);				// ì •ìˆ˜ë¥¼ 0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ê¸° ë•Œë¬¸ì— ì˜ˆì™¸ë°œìƒ
 
 	}
 

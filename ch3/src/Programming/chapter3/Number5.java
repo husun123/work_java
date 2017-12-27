@@ -7,24 +7,24 @@ public class Number5 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("¿¬µµ¸¦ ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì—°ë„ë¥¼ ì…ë ¥í•˜ì‹œì˜¤");
 		int a = input.nextInt();
 		
 	
 		if(a%400 == 0) {
-			System.out.printf("%d³âÀº À±³âÀÔ´Ï´Ù.", a);
+			System.out.printf("%dë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤.", a);
 		}
 		
 		else if (a%4 == 0) {
 			if (a%100 == 0)
-				System.out.printf("%d³âÀº Æò³âÀÔ´Ï´Ù.", a);
+				System.out.printf("%dë…„ì€ í‰ë…„ì…ë‹ˆë‹¤.", a);
 			
 			else
-			System.out.printf("%d³âÀº À±³âÀÔ´Ï´Ù.", a);
+			System.out.printf("%dë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤.", a);
 		}
 		
 		else 
-			System.out.printf("%d³âÀº Æò³âÀÔ´Ï´Ù.", a);
+			System.out.printf("%dë…„ì€ í‰ë…„ì…ë‹ˆë‹¤.", a);
 		
 		input.close();
 	}

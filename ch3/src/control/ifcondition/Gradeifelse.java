@@ -6,7 +6,7 @@ public class Gradeifelse {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("¼ºÀûÀÔ·Â :");
+		System.out.println("ì„±ì ì…ë ¥ :");
 		int point = input.nextInt();
 		char grade;
 		
@@ -22,7 +22,7 @@ public class Gradeifelse {
 		else {
 			grade = 'F';
 		}	
-		System.out.println("ÇĞÁ¡ : " + grade);
+		System.out.println("í•™ì  : " + grade);
 		
 		input.close();
 	}

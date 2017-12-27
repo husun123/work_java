@@ -7,7 +7,7 @@ public class Number2 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("µÎ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.println("ë‘ ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 		
 		double a = input.nextDouble();
 		double b = input.nextDouble();
@@ -15,8 +15,8 @@ public class Number2 {
 		double add = (int)a + (int)b;
 		double ave = ((int)a + (int)b)/2;
 		
-		System.out.printf("ÇÕ : %.2f \n", add);
-		System.out.printf("Æò±Õ : %.2f", ave);
+		System.out.printf("í•© : %.2f \n", add);
+		System.out.printf("í‰ê·  : %.2f", ave);
 
 		input.close();
 		

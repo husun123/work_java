@@ -2,24 +2,24 @@ package programming.basic;
 
 public class HelloPrograming03 {
 	
-	// 1ÁÙ ÁÖ¼®
-	// ¾È³çÇÏ¼¼¿ä ¹İ°©½À´Ï´Ù
+	// 1ì¤„ ì£¼ì„
+	// ì•ˆë…•í•˜ì„¸ìš” ë°˜ê°‘ìŠµë‹ˆë‹¤
 	
-	//¿©·¯ÁÙ ÀÔ·ÂÇÏ´Â ÁÖ¼®
-	/* ¤·
-	   ¤§
-	   ¤©
-	   ¤¡ */
+	//ì—¬ëŸ¬ì¤„ ì…ë ¥í•˜ëŠ” ì£¼ì„
+	/* ã…‡
+	   ã„·
+	   ã„¹
+	   ã„± */
 	
-	// JavaDocÁÖ¼®
+	// JavaDocì£¼ì„
 	/**
 	 
 	@author KOITT 
 	 */
 	   
-	 // ÁÖ¼® ´ÜÃàÅ° Ctrl + Shift + / , Ctrl + Shift + \ 
+	 // ì£¼ì„ ë‹¨ì¶•í‚¤ Ctrl + Shift + / , Ctrl + Shift + \ 
 	
-	static String hello = "¾È³çÇÏ¼¼¿ä. ¿©·¯ºĞ - ¹İ°©½À´Ï´Ù.";
+	static String hello = "ì•ˆë…•í•˜ì„¸ìš”. ì—¬ëŸ¬ë¶„ - ë°˜ê°‘ìŠµë‹ˆë‹¤.";
 	static String hello02 = "Hello";
 	
 	public static void main(String[] args) {
@@ -43,14 +43,14 @@ public class HelloPrograming03 {
 	
 	}
 	
-	// °°Àº ³»¿ë 10¹ø Ãâ·ÂÇÏ´Â ¸Ş¼Òµå
+	// ê°™ì€ ë‚´ìš© 10ë²ˆ ì¶œë ¥í•˜ëŠ” ë©”ì†Œë“œ
 	static void print10(String word) {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(word);
 		}
 	}
 	
-	// µÎ ¼öÀÇ ÇÕÀ» Ãâ·ÂÇÏ´Â ¸Ş¼Òµå
+	// ë‘ ìˆ˜ì˜ í•©ì„ ì¶œë ¥í•˜ëŠ” ë©”ì†Œë“œ
 	static void printSum(int a, int b) {
 		int result = a + b;
 		System.out.println(result);

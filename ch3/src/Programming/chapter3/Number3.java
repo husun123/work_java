@@ -7,12 +7,12 @@ public class Number3 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("¹«°ÔÀ» ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.println("ë¬´ê²Œì„ ì…ë ¥í•˜ì‹œì˜¤.");
 		
 		double a = input.nextDouble();
 		double b = a*1000000/453592;
 		
-		System.out.printf("ÆÄ¿îµå : %.3f", b);
+		System.out.printf("íŒŒìš´ë“œ : %.3f", b);
 		
 		input.close();
 	}

@@ -6,10 +6,10 @@ public class HelloPrintf {
 		System.out.println("123456 123456 123456");
 		System.out.println("----------------------");
 		/*
-		 * d(Decimal) 10Áø¼ö
-		 * o(Octal) : 8Áø¼ö
-		 * h(Hexadecimal), x, X : 16Áø¼ö 
-		 * $  : ¼ø¼­
+		 * d(Decimal) 10ì§„ìˆ˜
+		 * o(Octal) : 8ì§„ìˆ˜
+		 * h(Hexadecimal), x, X : 16ì§„ìˆ˜ 
+		 * $  : ìˆœì„œ
 		 */
 		System.out.format("%6d %6o %6h %n", 10, 10, 10);
 		System.out.format("%-6d %-6o %-6x %n", 20, 20, 20);

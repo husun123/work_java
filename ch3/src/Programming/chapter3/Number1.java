@@ -7,15 +7,15 @@ public class Number1 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("µÎ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã5.");
+		System.out.println("ë‘ ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œ5.");
 		double a = input.nextDouble();
 		double b = input.nextDouble();
 		double add = a + b;
 		double avg = (a + b) /2;
 		
 		
-		System.out.printf("ÇÕ : %.2f \n", add);
-		System.out.printf("Æò±Õ : %.2f", avg);
+		System.out.printf("í•© : %.2f \n", add);
+		System.out.printf("í‰ê·  : %.2f", avg);
 	
 		input.close();
 	}

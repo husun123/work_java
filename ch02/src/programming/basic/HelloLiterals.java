@@ -1,7 +1,7 @@
 package programming.basic;
 
 public class HelloLiterals {
-	static long creditCardNumber = 1234_5678_9012_3456L;			//Java 7ºÎÅÍ Àû¿ë
+	static long creditCardNumber = 1234_5678_9012_3456L;			//Java 7à¸šà¸®à¸¥à¸­ à¸ à¹›à¸Ÿà¹‹
 	static long socialSecurityNumber = 999_99_9999L;
 	static float pi = 3.14_15F;
 

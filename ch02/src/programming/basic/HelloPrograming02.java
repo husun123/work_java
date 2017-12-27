@@ -2,13 +2,13 @@ package programming.basic;
 
 public class HelloPrograming02 {
 	
-	// Àü¿ª º¯¼ö
-	// ¸â¹öº¯¼ö
-	static String hello = "¾È³çÇÏ¼¼¿ä. ¿©·¯ºÐ - ¹Ý°©½À´Ï´Ù";
+	// ì „ì—­ ë³€ìˆ˜
+	// ë©¤ë²„ë³€ìˆ˜
+	static String hello = "ì•ˆë…•í•˜ì„¸ìš”. ì—¬ëŸ¬ë¶„ - ë°˜ê°‘ìŠµë‹ˆë‹¤";
 
 	public static void main(String[] args) {
 		
-		// Áö¿ª º¯¼ö
+		// ì§€ì—­ ë³€ìˆ˜
 		String hello2 = "Hello Everyone";
 		
 		System.out.println(hello2);

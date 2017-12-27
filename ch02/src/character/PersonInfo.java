@@ -13,7 +13,7 @@ public class PersonInfo {
 	
 		weight = scan.nextInt();
 		height = scan.nextDouble();
-		System.out.print("¸ö¹«°Ô : " + weight + " Å° : " + height);
+		System.out.print("ëª¸ë¬´ê²Œ : " + weight + " í‚¤ : " + height);
 		
 		scan.close();		
 	}

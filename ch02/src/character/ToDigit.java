@@ -9,7 +9,7 @@ public class ToDigit {
 		Scanner input = new Scanner(System.in);
 		int what = input.nextInt();
 		System.out.printf("%o %d %h", what, what, what);
-		// %h ¿Í %x ´Â µÑ´Ù 16Áø¼ö¸¦ Ç¥ÇöÇÏ°í Â÷ÀÌ´Â ¾ø´Ù.
+		// %h ì™€ %x ëŠ” ë‘˜ë‹¤ 16ì§„ìˆ˜ë¥¼ í‘œí˜„í•˜ê³  ì°¨ì´ëŠ” ì—†ë‹¤.
 		input.close();
 	}
 

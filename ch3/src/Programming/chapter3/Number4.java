@@ -7,10 +7,10 @@ public class Number4 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("È­¾¾¸¦ ¼·¾¾·Î ¹Ù²Ù½Ã·Á¸é [F], ¼·¾¾¸¦ È­¾¾·Î ¹Ù²Ù½Ã·Á¸é [C]¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.println("í™”ì”¨ë¥¼ ì„­ì”¨ë¡œ ë°”ê¾¸ì‹œë ¤ë©´ [F], ì„­ì”¨ë¥¼ í™”ì”¨ë¡œ ë°”ê¾¸ì‹œë ¤ë©´ [C]ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 		
 		String a = input.next();
-		System.out.println("¿Âµµ¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.println("ì˜¨ë„ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 		double b = input.nextDouble();
 		double x = (5.0 / 9.0)*(b-32);
 		double y = (9.0 / 5.0)*b+32;
@@ -18,10 +18,10 @@ public class Number4 {
 		
 		switch (a) {
 			case  "F" : case "f" : 
-				System.out.printf("¼·¾¾´Â %.2f ÀÔ´Ï´Ù.", x);
+				System.out.printf("ì„­ì”¨ëŠ” %.2f ì…ë‹ˆë‹¤.", x);
 				break;
 			case "C" : case "c" :
-				System.out.printf("È­¾¾´Â %.2f ÀÔ´Ï´Ù.", y);
+				System.out.printf("í™”ì”¨ëŠ” %.2f ì…ë‹ˆë‹¤.", y);
 				break;
 		}
 		input.close();

@@ -8,8 +8,8 @@ public class ToPound {
 		
 		Scanner input = new Scanner(System.in);
 		double what = input.nextDouble();
-		System.out.println("¹«°Ô : " + what);
-		System.out.println("¹«°Ô" + what*2.2);
+		System.out.println("ë¬´ê²Œ : " + what);
+		System.out.println("ë¬´ê²Œ" + what*2.2);
 		
 		input.close();
 		}

@@ -7,16 +7,16 @@ public class Number9 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("Å°¿Í ¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.println("í‚¤ì™€ ëª¸ë¬´ê²Œë¥¼ ìž…ë ¥í•˜ì‹œì˜¤.");
 		double a = input.nextDouble();
 		double b = input.nextDouble();
 		double n = (a-100)*0.9;
 		
 		if (b <= n) {
-			System.out.println("Á¤»óÀÔ´Ï´Ù.");
+			System.out.println("ì •ìƒìž…ë‹ˆë‹¤.");
 		}
 		else 
-			System.out.println("ºñ¸¸ÀÔ´Ï´Ù.");
+			System.out.println("ë¹„ë§Œìž…ë‹ˆë‹¤.");
 		
 		input.close();
 

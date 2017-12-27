@@ -23,7 +23,7 @@ public class Number6 {
 		
 		int f = a % 10;
 		
-		System.out.printf("%d¸¸ %dÃµ %d¹é %d½Ê %dÀÔ´Ï´Ù.", b, c, d, e, f);
+		System.out.printf("%dë§Œ %dì²œ %dë°± %dì‹­ %dìž…ë‹ˆë‹¤.", b, c, d, e, f);
 		
 		input.close();
 	}

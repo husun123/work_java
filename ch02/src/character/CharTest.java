@@ -1,4 +1,4 @@
-package character;
+﻿package character;
 
 public class CharTest {
 
