@@ -10,6 +10,7 @@ public class ArrayInit2 {
 		
 		score = new int[] {23, 46, 78};			// 다른 배열을 생성하여 대입
 		System.out.printf("%d %d %d %n", score[0], score[1], score[2]);
+		
 
 	}
 

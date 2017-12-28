@@ -12,9 +12,9 @@ public class For {
 		for(i = 1, sum = 0; i <= 10; sum += i, i++);
 		//for (i = 1, sum = 0; i <= 10; i++)
 		// sum += i;
-		System.out.printf("합 : %d%n", sum);
+		System.out.printf("합 : %d %d",i, sum);
 		
-		for (int j = 1, total = 0; j <=3000; j++) {
+		for (int j = 1, total = 0; j <=10; j++) {
 			total += j;
 			System.out.printf("1에서 %d까지 합은 %d입니다.%n", j, total);
 		}
