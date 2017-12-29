@@ -41,7 +41,4 @@ public class Animal /*extends Object*/ {
 		public void setKind(String kind) {
 			this.kind = kind;
 		}	
-		
-	
-
 }
