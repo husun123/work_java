@@ -25,4 +25,8 @@ public class HelloOverloading {
 		double result = a + b;
 		return result;
 	}
+	static double plus(int a, double b) {
+		double result = a + b;
+		return result;
+	}
 }

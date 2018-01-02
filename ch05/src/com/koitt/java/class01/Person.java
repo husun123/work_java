@@ -8,7 +8,6 @@ public class Person extends Animal {
 	
 	private String ssn;				//주민등록번호
 	private String address;		// 주소
-	private String group;
 
 	
 	public String getSsn() {
@@ -23,10 +22,10 @@ public class Person extends Animal {
 	public void setAddress(String address) {
 		this.address = address;
 	}	
-	public String getGroup() {
-		return this.group;
+	
+	//메소드 - Person의 내용을 출력
+	public void print() {
+		System.out.println("주민등록번호 : " + this.ssn + ", 주소 : " + this.address );
+		
 	}
-	public void setGroup(String group) {
-		this.group = group;
-	}	
 }
