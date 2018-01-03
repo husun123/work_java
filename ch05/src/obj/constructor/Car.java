@@ -1,10 +1,28 @@
 package obj.constructor;
 
+import com.koitt.java.class04.Owner;
+
 public class Car {
 
 	private int maxSpeed;
 	private String brandName;
 	private int speed;
+
+	public String getBrandName() {
+		return brandName;
+	}
+
+	public void setBrandName(String brandName) {
+		this.brandName = brandName;
+	}
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
 
 	//브랜드 이름을 지정하는 생성자
 	public Car(String brandName) {
@@ -54,12 +72,12 @@ public class Car {
 
 	public static void main(String[] args) {
 		Car mycar = new Car("포르쉐", 300);
-		mycar.speedUp();
-		mycar.speedUp();
-		System.out.print("차종 : " + mycar.brandName);
-		System.out.print(", 최고 속도 : " + mycar.getMaxSpeed());
-		System.out.println(", 현재 속도 : " + mycar.speedDown());
-
+		Owner jason = new Owner("jason", mycar);
+		Car mayercar = new Car("현대", 250);
+		Owner mayer = new Owner("mayer", mayercar);
+		
+		jason.intromyCar();
+		mayer.intromyCar();
 	}
 
 }

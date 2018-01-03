@@ -4,11 +4,7 @@ public class Circle {
 	
 	public double radius;
 	public static double PI = 3.141592;
-	
-	public Circle() {
-		
-	}
-	
+
 	//생성자 구현
 	public Circle(double radius) {
 		this.radius = radius;
@@ -18,7 +14,7 @@ public class Circle {
 	public double getArea() {
 		return radius * radius * PI;
 	}
-	public static void main(String[] args) {
-		Circle circle = new Circle();
-	}
+
+		
+
 }
