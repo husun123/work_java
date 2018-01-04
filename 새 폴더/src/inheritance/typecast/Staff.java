@@ -1,6 +1,6 @@
 package inheritance.typecast;
 
-public class Staff {
+public class Staff extends Faculty{
 
 	public String division;
 	
