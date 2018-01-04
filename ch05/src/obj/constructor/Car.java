@@ -71,13 +71,31 @@ public class Car {
 	}
 
 	public static void main(String[] args) {
-		Car mycar = new Car("포르쉐", 300);
-		Owner jason = new Owner("jason", mycar);
-		Car mayercar = new Car("현대", 250);
+		Car[] jasoncar = new Car[1];
+		jasoncar[0] = new Car("포르쉐", 300);
+		Owner jason = new Owner("jason", jasoncar);
+		Car[] mayercar = new Car[1];
+		mayercar[0] = new Car("카카", 250);
 		Owner mayer = new Owner("mayer", mayercar);
 		
 		jason.intromyCar();
 		mayer.intromyCar();
+		
+		Car[] yapcar = new Car[1];
+		yapcar[0] = new Car("미카", 800);
+		jason.setCar1(yapcar);
+		jason.intromyCar();
+		
+		Car[] cars = new Car[3];
+		
+		cars[1] = new Car("쏘카", 80);
+		cars[2] = new Car("엄카", 100);
+		cars[0] = new Car("얍카", 50);
+		
+		mayer.setCar1(cars);
+		
+		mayer.intromyCar();
+		
 	}
 
 }
