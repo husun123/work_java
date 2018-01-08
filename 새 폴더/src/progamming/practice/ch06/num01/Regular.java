@@ -7,13 +7,14 @@ public class Regular extends Employee{
 		super(name, age, address, department);
 	}
 	
+	public void setSalary(long salary) {
+		super.setSalary(salary);
+	}
 
-	
-	
-	
+	@Override
 	public void printInfo() {
-		System.out.print("이름 : " + super.getName() + ", 나이 : " +super.getAge() + ", 주소 : " + super.address + ", 부서 : " + super.getDepartment() );
-		System.out.println(" 월급 : " + this.getSalary() + " -정규직-");
+		super.printInfo();
+		System.out.println(" 월급 : " + super.getSalary() + " -정규직-");
 	}
 	
 	
