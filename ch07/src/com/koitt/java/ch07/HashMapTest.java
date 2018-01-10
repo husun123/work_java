@@ -2,11 +2,12 @@ package com.koitt.java.ch07;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 public class HashMapTest {
 
 	public static void main(String[] args) {
-		HashMap<String, String> hm = new HashMap<String, String>();       //-> HashMap을 이용해서 키와 값이 모두 문자열을 허용하는 Map을 만들기 위한 문장
+		Map<String, String> hm = new HashMap<String, String>();       //-> HashMap을 이용해서 키와 값이 모두 문자열을 허용하는 Map을 만들기 위한 문장
 		
 		hm.put("한국", "서울");
 		hm.put("일본", "도쿄");

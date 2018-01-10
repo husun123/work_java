@@ -1,12 +1,13 @@
 package com.koitt.java.ch07;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListTest {
 
 	public static void main(String[] args) {
 			
-		ArrayList list = new ArrayList();
+		List<Object> list = new ArrayList<>();
 		
 		list.add(0.87);
 		list.add("algol");
@@ -16,6 +17,6 @@ public class ArrayListTest {
 		list.add(3.4);
 		list.add(5.8);
 		
+	
 	}
-
 }
