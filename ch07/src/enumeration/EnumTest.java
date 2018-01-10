@@ -14,6 +14,7 @@ public class EnumTest {
 			System.out.println(clang + ": C# 언어 ");
 		}
 		
+		// for-each문
 		for ( P1 p : P1.values())
 			System.out.print(p + " ");
 		System.out.println();
